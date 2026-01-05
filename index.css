@@ -21,6 +21,7 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-heading h2{
     color:#181818;
@@ -129,4 +130,40 @@ nav .menu li a{
 .about-info{
     font-weight: bold;
     font-size:20px;
+}
+#skilles{
+    padding-top: 130px;
+}
+#skilles .skilles-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+#skilles .skilles-container .skilles-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.skilles-info .skilles-card{
+    padding: 30px;
+    /* border: 1px solid rebeccapurple; */
+    max-width: 267px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.3);
+}
+.skilles-card img{
+    width: 44px;
+    margin-bottom: 20px;
+}
+.skilles-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skilles-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 30px;
 }

@@ -1,0 +1,52 @@
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Share Style */
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 45px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Main Style  */
+header{
+    background-color: #FFF8F3;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight:900;
+    color: #181818;
+}
+.logo h2 span{
+    color: #FD6E0A;
+}
+nav{
+    padding-top: 50px;
+    width: 71%;
+    max-width: 1024px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap:51px;
+    align-items: center;
+}
+nav .menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
